@@ -3,12 +3,17 @@
 From this point onwards, you will be managing your assignments with `git` and submitting them through GitHub. The aim of this assignment is to get you familiarized with the common version control workflow.
 
 #### Getting Started
-Make sure you've <em>forked</em> this repository under your own GitHub account, and then clone your own repository to your computer. Complete the assignment by modifying this file in your <em>own branch</em> and create the appropriate commits as you see fit, you will push the changes you've made in your own branch as submission to GitHub.
+Make sure you've <em>forked</em> this repository under your own GitHub account, and then clone your own repository to your computer. Complete the assignment by modifying your personal copy of this file and create the appropriate commits as you see fit, you will push the changes you've made as submission to GitHub.
 
 If the version control concepts or `git` commands are still confusing to you, consider re-reading and following the online notes, or check out an interactive tutorial like [Learn Git Branching](https://learngitbranching.js.org/).
 
 #### The Assignment:
- 1. Use `git` to list the current `remote` destination of this assignment repository. 
+ 0. Create a branch in this assignment repository named `submission`, then list all the branches you have:
+    ```bash
+    # git command used and new list of branches
+    ```
+
+ 1. List the current `remote` destination of this assignment repository. 
 
     ```bash
     # your git command and output here
@@ -61,4 +66,4 @@ If the version control concepts or `git` commands are still confusing to you, co
     ```bash
     # Your .gitignore_global entries here
     ```
- 9. Push your completed assignment to GitHub, and submit the assignment by creating a pull request. 
+ 9. Merge the `submission` branch back to your `master` or `main` branch, push your completed assignment to GitHub, and submit the assignment by creating a pull request.
