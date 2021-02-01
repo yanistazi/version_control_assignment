@@ -13,7 +13,7 @@ If the version control concepts or `git` commands are still confusing to you, co
     # git command used and new list of branches
     ```
 
- 1. List the current `remote` destination of this assignment repository. 
+ 1. List the current `remote` name and hyperlink destination of this assignment repository. 
 
     ```bash
     # your git command and output here
