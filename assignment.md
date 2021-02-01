@@ -3,7 +3,7 @@
 From this point onwards, you will be managing your assignments with `git` and submitting them through GitHub. The aim of this assignment is to get you familiarized with the common version control workflow.
 
 #### Getting Started
-Make sure you've <em>forked</em> this repository under your own GitHub account, and then clone your own repository to your computer. Complete the assignment by modifying your personal copy of this file and create the appropriate commits as you see fit, you will push the changes you've made as submission to GitHub.
+Make sure you've <em>forked</em> this repository under your own GitHub account, and then clone your own repository to your computer. Do not modify this original file, create a copy of this file as `{first}-{last}-assignment3.md`, complete the assignment by modifying your personal copy of this file and create the appropriate commits as you see fit, you will push the changes you've made as submission to GitHub.
 
 If the version control concepts or `git` commands are still confusing to you, consider re-reading and following the online notes, or check out an interactive tutorial like [Learn Git Branching](https://learngitbranching.js.org/).
 
@@ -28,7 +28,7 @@ If the version control concepts or `git` commands are still confusing to you, co
 
  3. Save your modifications to this file so far and create a commit indicating you've answered the first 2 questions. Then try pushing the changes to the `upstream` destination on GitHub. What happens? Explain in your own words why does this happen? What are the benefits of having this `upstream` remote added when working collaboratively?
 
- > Your answer here
+    > Your answer here
 
 
  4. Now clone the repository for the [class website](https://github.com/WCM-datascibasics/wcm-datascibasics.github.io), and in the class website repository:
