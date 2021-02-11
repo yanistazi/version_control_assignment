@@ -1,3 +1,4 @@
+
 ## Chapter 3 Assignment
 
 From this point onwards, you will be managing your assignments with `git` and submitting them through GitHub. The aim of this assignment is to get you familiarized with a common version control workflow.
@@ -11,21 +12,47 @@ If the version control concepts or `git` commands are still confusing to you, co
  0. Create a branch in this assignment repository named `submission`, then list all the branches you have:
 
     ```bash
-    # git command used and new list of branches
+    # git checkout -b submission
+
+    # git branch
+
+    ## Ouput:
+
+    main
+
+    submission
     ```
+
 
  1. List the current `remote` name and hyperlink destination of this assignment repository. 
 
     ```bash
-    # your git command and output here
+   # git remote -v
+
+   ## Ouput:
+   
+    origin https://github.com/yanistazi/version_control_assignment.git (fetch)
+
+
+    origin https://github.com/yanistazi/version_control_assignment.git (push)
     ```
 
 
  2. Add a second remote destination named `upstream` to your assignment repository, `upstream` is a common name used for the repository that people have forked from, in our case, the `upstream` will be at `https://github.com/WCM-datascibasics/version_control_assignment`. List the new list of remotes after you've added the new remote. 
  
     ```bash
-    # list the new list of remotes here
+    
+    # git remote add upstream https://github.com/WCM-datascibasics/version_control_assignment
+    # git remote -v
+
+    ## Ouput:
+
+    origin https://github.com/yanistazi/version_control_assignment.git (fetch)
+    origin https://github.com/yanistazi/version_control_assignment.git (push)
+    upstream https://github.com/WCM-datascibasics/version_control_assignment (fetch)
+    upstream https://github.com/WCM-datascibasics/version_control_assignment (push)
     ```
+
 
  3. Save your modifications to this file so far and create a commit indicating you've answered the first 2 questions. Then try pushing the changes to the `upstream` destination on GitHub. What happens? Explain in your own words why does this happen? What are the benefits of having this `upstream` remote added when working collaboratively?
 
